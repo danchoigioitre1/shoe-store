@@ -1,0 +1,164 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card {
+    margin: auto;
+    margin-top: 200px;
+    width: 320px;
+    height: 400px;
+    background-color: #272d40;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    transition-delay: 0.4s;
+}
+
+.card__heart {
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.card__cart {
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.card__img {
+    width: 90%;
+    height: 30%;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+
+.card__img img {
+    width: 90%;
+
+    object-fit: cover;
+    padding-left: 35px;
+}
+
+.card__title,
+.card__price {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 10%;
+    transition: 0.5s;
+}
+
+.card__title {
+    color: #4daf54;
+    position: relative;
+    top: 15px;
+}
+
+.card__color,
+.card__size {
+    display: flex;
+    align-items: center;
+}
+
+.card__size span {
+    padding: 1px 7px;
+    background-color: #dadada;
+    color: black;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.card__color span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.card__color {
+    position: relative;
+    bottom: 20px;
+}
+
+.card__action {
+    position: relative;
+    bottom: 25px;
+}
+
+.card__action button {
+    background-color: #4daf54;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.25s;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.card:hover .card__img {
+    transform: rotate(20deg) translateY(-120px);
+}
+
+.card:hover .card__title {
+
+    transform: translateY(-35px) translateX(-90px);
+}
+
+
+.card:hover .card__price {
+    transform: translateY(-35px) translateX(-90px);
+}
+
+.card__size {
+    margin-top: 150px;
+}
+
+.card__size,
+.card__color,
+.card__action {
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover .card__size,
+.card:hover .card__color,
+.card:hover .card__action {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.card__color .green:hover {
+    border: white 3px solid;
+}
+
+.card:hover .card__size {
+    margin-top: -35px;
+}
+
+.card__action button:hover {
+    transform: scale(0.8);
+}

@@ -1,0 +1,356 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.navbar-blog {
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  z-index: 100;
+
+}
+
+
+
+.logo {
+  transform: scale(0.4);
+}
+
+.nav-icons {
+  width: 20%;
+}
+
+.nav-icons .fas {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-icons a i {
+  text-decoration: none;
+}
+
+.nav-icons a {
+  color: black;
+}
+
+.nav-item hr {
+  width: 0;
+  transition: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.nav-item:hover hr {
+  width: 100%;
+}
+
+
+/*banner*/
+.banner img {
+  width: 100%;
+}
+
+.banner {
+  margin-top: 120px;
+  clear: both;
+}
+
+
+/*gallery*/
+.gallery {
+  margin-top: 100px;
+}
+
+.gallery-title {
+  width: 60%;
+  margin: auto;
+  font: 1em sans-serif;
+  text-align: center;
+
+  font-size: 30px;
+}
+
+
+.gallery-picture img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.gallery-picture {
+  margin-top: 100px;
+}
+
+.gallery-picture1:hover img {
+  transform: scale(1.3);
+}
+
+.gallery-picture2:hover img {
+  transform: scale(1.3);
+}
+
+.gallery-picture3:hover img {
+  transform: scale(1.3);
+}
+
+.gallery-picture4:hover img {
+  transform: scale(1.3);
+}
+
+.gallery-picture5:hover img {
+  transform: scale(1.3);
+}
+
+.gallery-picture6:hover img {
+  transform: scale(1.3);
+}
+
+/*footer*/
+
+.main-footer {
+  margin-top: 50px;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-footer {
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+  transform: scale(0.4);
+}
+
+.social-list a i {
+  width: 15px;
+  transform: scale(1.5);
+  margin: auto 10px;
+}
+
+
+/*sidebar*/
+
+.sidebar-container {
+  margin-top: 50px;
+
+
+}
+
+.sidebar-container hr {
+  display: block;
+  margin: auto;
+  width: 70%;
+}
+
+.sidebar {
+  border: solid 1px rgb(247, 235, 235);
+  padding: 0;
+  float: left;
+}
+
+.sidebar-content img {
+  width: 25%;
+  padding: auto;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.p-content {
+  width: 65%;
+  float: right;
+  padding: auto 10px;
+}
+
+.sidebar-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.p-content span {
+  opacity: 0.7;
+}
+
+
+.sidebar-title {
+  margin-bottom: 40px;
+  margin: auto;
+  width: 90%;
+  border-bottom: 1px solid black;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.p-content p a {
+  text-decoration: none;
+  color: black;
+}
+
+.p-content p a:hover {
+  text-decoration: underline;
+}
+
+/*main-content*/
+.main-content {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  overflow: auto;
+}
+
+.main-content img {
+  width: 35%;
+  transition: 0.5s;
+  float: left;
+}
+
+.content-text {
+  width: 60%;
+  float: right;
+}
+
+.content-text span {
+  opacity: 0.6;
+}
+
+.main-content:hover img {
+  border: 1px black solid;
+}
+
+.content-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.content-text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content-div {
+  float: left;
+  padding-left: 20px;
+  ;
+}
+
+
+
+
+/*Sign in page*/
+.sign-in {
+  margin-top: 200px;
+}
+
+.sign-in-text h1 {
+  font-weight: bold;
+}
+
+.sign-in-text hr {
+  width: 40%;
+  float: left;
+}
+
+.sign-in input {
+  width: 80%;
+  height: 50px;
+
+  margin: 15px auto;
+}
+
+.infor {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.sign-in a {
+  text-decoration: none;
+}
+
+.sign-in p {
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.reup {
+  margin-top: 15px;
+}
+
+.reup a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.reup a:hover {
+  text-decoration: underline;
+}
+
+button {
+  transition: 0.5s;
+}
+
+/*sign-up-page*/
+.sign-up {
+  margin-top: 200px;
+}
+
+.sign-up {
+  margin-top: 200px;
+}
+
+.sign-up-text h1 {
+  font-weight: bold;
+}
+
+.sign-up-text hr {
+  width: 40%;
+  float: left;
+}
+
+.sign-up-text {
+  padding-top: 200px;
+}
+
+.sign-up .name input {
+  width: 80%;
+  height: 50px;
+
+  margin: 15px auto;
+}
+
+.sign-up .genre input {
+  margin-left: 20px;
+}
+
+.infor2 {
+  padding-left: 40px;
+}
+
+.infor2 p {
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.comeback {
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.comeback a {
+  text-decoration: none;
+
+  color: black;
+}
+
+.comeback a:hover {
+  text-decoration: underline;
+}
